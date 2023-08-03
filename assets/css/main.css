@@ -2631,6 +2631,19 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
+		
+		.image.tight {
+			display: block;
+			margin: .5rem 0;
+			width: 100%;
+		}
+			.image.tight:first-child {
+				margin-top: 0;
+			}
+
+			.image.tight img {
+				width: 100%
+			}
 
 		.image.main {
 			display: block;
